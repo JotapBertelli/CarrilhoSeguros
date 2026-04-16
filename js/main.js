@@ -21,7 +21,6 @@
     }
 
     window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
 
     /* ============================================
        HAMBURGER / MOBILE NAV
@@ -156,6 +155,8 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     }
+
+    onScroll();
 
     /* ============================================
        HERO STAGGER (CSS-driven, just add class)
